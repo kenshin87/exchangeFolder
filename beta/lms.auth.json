@@ -1,0 +1,376 @@
+{
+    "ALIPAY_APP_INFO": {
+        "basic_info":{
+            "KEY": "cpuhmaigjv2k405hjh1tuxkf5qvxa4x3",
+            "PARTNER": "2088521102226735",
+            "SELLER_EMAIL": "support@eliteu.cn"
+        },
+        "other_info":{
+            "INPUT_CHARSET": "utf-8",
+            "INPUT_DIRECT_CHARSET": "gbk",
+            "SIGN_TYPE": "RSA",
+            "RETURN_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/alipaysuccess/",
+            "NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/alipayappasyncnotify/",
+            "REFUND_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/alipayrefundasyncnotify",
+            "SHOW_URL": "",
+            "ERROR_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/errornotify/",
+            "TRANSPORT": "https",
+            "DEFAULT_BANK": "CITIC-DEBIT",
+            "IT_B_PAY": "2d",
+            "REFUND_URL": "refund_fastpay_by_platform_pwd"
+        }
+    },
+    "ALIPAY_INFO": {
+        "basic_info":{
+            "KEY": "cpuhmaigjv2k405hjh1tuxkf5qvxa4x3",
+            "PARTNER": "2088521102226735",
+            "SELLER_EMAIL": "support@eliteu.cn"
+        },
+        "other_info":{
+            "INPUT_CHARSET": "utf-8",
+            "INPUT_DIRECT_CHARSET": "gbk",
+            "SIGN_TYPE": "MD5",
+            "RETURN_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/alipaysuccess/",
+            "NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/alipayasyncnotify/",
+            "REFUND_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/alipayrefundasyncnotify",
+            "SHOW_URL": "",
+            "ERROR_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/alipay/errornotify/",
+            "TRANSPORT": "https",
+            "DEFAULT_BANK": "CITIC-DEBIT",
+            "IT_B_PAY": "2d",
+            "REFUND_URL": "refund_fastpay_by_platform_pwd"
+        }
+    },
+    "ALIPAY_WEB_INFO": {
+        "basic_info":{
+            "KEY": "cpuhmaigjv2k405hjh1tuxkf5qvxa4x3",
+            "APPID": "2016102102269868",
+            "SELLER_ID": "2088521102226735"
+        },
+        "other_info":{
+            "CHARSET": "utf-8",
+            "INPUT_DIRECT_CHARSET": "gbk",
+            "SIGN_TYPE": "RSA",
+            "VERSION": "1.0",
+            "FORMAT": "JSON",
+            "RETURN_URL": "http://demo.m.e-ducation.cn/user_center/alipay/paying_result/",
+            "NOTIFY_URL": "http://demo.m.e-ducation.cn/user_center/alipay/async_notify/",
+            "REFUND_NOTIFY_URL": "",
+            "SHOW_URL": "",
+            "ERROR_NOTIFY_URL": "",
+            "TRANSPORT": "https",
+            "DEFAULT_BANK": "CITIC-DEBIT",
+            "IT_B_PAY": "2d",
+            "REFUND_URL": "refund_fastpay_by_platform_pwd"
+        }
+    },
+    "ANALYTICS_API_KEY": "", 
+    "ANALYTICS_DATA_TOKEN": "", 
+    "AWS_ACCESS_KEY_ID": null, 
+    "AWS_QUERYSTRING_AUTH": false, 
+    "AWS_S3_CUSTOM_DOMAIN": "SET-ME-PLEASE (ex. bucket-name.s3.amazonaws.com)", 
+    "AWS_SECRET_ACCESS_KEY": null, 
+    "AWS_STORAGE_BUCKET_NAME": "SET-ME-PLEASE (ex. bucket-name)", 
+    "CC_PROCESSOR": {
+        "CyberSource": {
+            "MERCHANT_ID": "", 
+            "ORDERPAGE_VERSION": "7", 
+            "PURCHASE_ENDPOINT": "", 
+            "SERIAL_NUMBER": "", 
+            "SHARED_SECRET": ""
+        }, 
+        "CyberSource2": {
+            "ACCESS_KEY": "", 
+            "PROFILE_ID": "", 
+            "PURCHASE_ENDPOINT": "", 
+            "SECRET_KEY": ""
+        }
+    }, 
+    "CC_PROCESSOR_NAME": "CyberSource2", 
+    "CELERY_BROKER_PASSWORD": "celery", 
+    "CELERY_BROKER_USER": "celery", 
+    "CLASSROOM_API_ACCESS_KEY": "9ad05be4138ef77138329b080fa9087f",
+    "CONTENTSTORE": {
+        "ADDITIONAL_OPTIONS": {}, 
+        "DOC_STORE_CONFIG": {
+            "collection": "modulestore", 
+            "connectTimeoutMS": 20000, 
+            "db": "edxapp", 
+            "host": [
+                "localhost"
+            ], 
+            "password": "FTp123s12fga", 
+            "port": 27017, 
+            "socketTimeoutMS": 30000, 
+            "ssl": false, 
+            "user": "edxapp"
+        }, 
+        "ENGINE": "xmodule.contentstore.mongo.MongoContentStore", 
+        "OPTIONS": {
+            "db": "edxapp", 
+            "host": [
+                "localhost"
+            ], 
+            "password": "FTp123s12fga", 
+            "port": 27017, 
+            "ssl": false, 
+            "user": "edxapp"
+        }
+    }, 
+    "CREDIT_PROVIDER_SECRET_KEYS": {}, 
+    "DATABASES": {
+        "default": {
+            "ATOMIC_REQUESTS": true, 
+            "ENGINE": "django.db.backends.mysql", 
+            "HOST": "localhost", 
+            "NAME": "edxapp", 
+            "PASSWORD": "password", 
+            "PORT": "3306", 
+            "USER": "edxapp001"
+        }, 
+        "read_replica": {
+            "ENGINE": "django.db.backends.mysql", 
+            "HOST": "localhost", 
+            "NAME": "edxapp", 
+            "PASSWORD": "password", 
+            "PORT": "3306", 
+            "USER": "edxapp001"
+        }, 
+        "student_module_history": {
+            "ENGINE": "django.db.backends.mysql", 
+            "HOST": "localhost", 
+            "NAME": "edxapp_csmh", 
+            "PASSWORD": "password", 
+            "PORT": "3306", 
+            "USER": "edxapp001"
+        }
+    }, 
+    "DEFAULT_FILE_STORAGE": "django.core.files.storage.FileSystemStorage", 
+    "DJFS": {
+        "directory_root": "/edx/var/edxapp/django-pyfs/static/django-pyfs", 
+        "type": "osfs", 
+        "url_root": "/static/django-pyfs"
+    }, 
+    "DOC_STORE_CONFIG": {
+        "collection": "modulestore", 
+        "connectTimeoutMS": 20000, 
+        "db": "edxapp", 
+        "host": [
+            "localhost"
+        ], 
+        "password": "FTp123s12fga", 
+        "port": 27017, 
+        "socketTimeoutMS": 30000, 
+        "ssl": false, 
+        "user": "edxapp"
+    }, 
+    "ECOMMERCE_API_SIGNING_KEY": "lms-secret", 
+    "EDX_API_KEY": "PUT_YOUR_API_KEY_HERE", 
+    "EMAIL_HOST_PASSWORD": "YL@dhd88681",
+    "EMAIL_HOST_USER": "info@eliteu.cn",
+    "ENTERPRISE_EMAIL_HOST_PASSWORD": "FEe4k2945k95",
+    "ENTERPRISE_EMAIL_HOST_USER": "notifications-noreply@e-ducation.cn",
+    "EVENT_TRACKING_SEGMENTIO_EMIT_WHITELIST": [], 
+    "FACEBOOK_API_VERSION": "v2.1", 
+    "FACEBOOK_APP_ID": "FACEBOOK_APP_ID", 
+    "FACEBOOK_APP_SECRET": "FACEBOOK_APP_SECRET", 
+    "GOOGLE_ANALYTICS_ACCOUNT": null, 
+    "GOOGLE_ANALYTICS_LINKEDIN": "", 
+    "LIVE_ACCOUNT":"v14967684",
+    "LIVE_PASSWORD":"dfg#@REr23fs",
+    "MODULESTORE": {
+        "default": {
+            "ENGINE": "xmodule.modulestore.mixed.MixedModuleStore", 
+            "OPTIONS": {
+                "mappings": {}, 
+                "stores": [
+                    {
+                        "DOC_STORE_CONFIG": {
+                            "collection": "modulestore", 
+                            "connectTimeoutMS": 20000, 
+                            "db": "edxapp", 
+                            "host": [
+                                "localhost"
+                            ], 
+                            "password": "FTp123s12fga", 
+                            "port": 27017, 
+                            "socketTimeoutMS": 30000, 
+                            "ssl": false, 
+                            "user": "edxapp"
+                        }, 
+                        "ENGINE": "xmodule.modulestore.split_mongo.split_draft.DraftVersioningModuleStore", 
+                        "NAME": "split", 
+                        "OPTIONS": {
+                            "default_class": "xmodule.hidden_module.HiddenDescriptor", 
+                            "fs_root": "/edx/var/edxapp/data", 
+                            "render_template": "edxmako.shortcuts.render_to_string"
+                        }
+                    }, 
+                    {
+                        "DOC_STORE_CONFIG": {
+                            "collection": "modulestore", 
+                            "connectTimeoutMS": 20000, 
+                            "db": "edxapp", 
+                            "host": [
+                                "localhost"
+                            ], 
+                            "password": "FTp123s12fga", 
+                            "port": 27017, 
+                            "socketTimeoutMS": 30000, 
+                            "ssl": false, 
+                            "user": "edxapp"
+                        }, 
+                        "ENGINE": "xmodule.modulestore.mongo.DraftMongoModuleStore", 
+                        "NAME": "draft", 
+                        "OPTIONS": {
+                            "default_class": "xmodule.hidden_module.HiddenDescriptor", 
+                            "fs_root": "/edx/var/edxapp/data", 
+                            "render_template": "edxmako.shortcuts.render_to_string"
+                        }
+                    }
+                ]
+            }
+        }
+    }, 
+    "OPTIMIZELY_PROJECT_ID": null, 
+    "PROCTORING_BACKEND_PROVIDER": {
+        "class": "edx_proctoring.backends.null.NullBackendProvider", 
+        "options": {}
+    }, 
+    "PROFILE_IMAGE_SECRET_KEY": "placeholder_secret_key", 
+    "QCLOUD_CONFIG": {
+        "module": "vod",
+        "action": "DescribeVodInfo",
+        "config": {
+            "Region": "gz",
+            "secretId": "AKIDDNCcniTPRnYI4sTsxMGPnPVxyMUxm2GE",
+            "secretKey": "kPSI2MLiMAPOq73IqbwpgyQHn7rfEMdC",
+            "method": "get"
+        }
+    },
+    "SECRET_KEY": "DUMMY KEY CHANGE BEFORE GOING TO PRODUCTION", 
+    "SEGMENT_KEY": null, 
+    "SMS_API": {
+        "urgent_auth":{
+            "userid": "92929",
+            "password": "cellcbx"
+        },
+        "normal_auth":{
+            "userid": "92930",
+            "password": "cellcbx"
+        }
+    },
+    "SOCIAL_AUTH_OAUTH_SECRETS": "", 
+    "SOCIAL_AUTH_SAML_SP_PRIVATE_KEY": "", 
+    "SOCIAL_AUTH_SAML_SP_PUBLIC_CERT": "", 
+    "SWIFT_AUTH_URL": null, 
+    "SWIFT_AUTH_VERSION": null, 
+    "SWIFT_KEY": null, 
+    "SWIFT_REGION_NAME": null, 
+    "SWIFT_TEMP_URL_DURATION": 1800, 
+    "SWIFT_TEMP_URL_KEY": null, 
+    "SWIFT_TENANT_ID": null, 
+    "SWIFT_TENANT_NAME": null, 
+    "SWIFT_USERNAME": null, 
+    "SWIFT_USE_TEMP_URLS": false, 
+    "TRACKING_SEGMENTIO_WEBHOOK_SECRET": "", 
+    "UNION_PAY_INFO": {
+        "basic_info":{
+            "SDK_MER_ID": "310420182990000",
+            "SDK_SIGN_CERT_PWD": "130530",
+            "SDK_SIGN_CERT_PATH": "common/djangoapps/union_pay/certs/eliteu_cert.pfx",
+            "SDK_VERIFY_CERT_DIR": "common/djangoapps/union_pay/certs/"
+        },
+        "other_info":{
+            "SDK_FRONT_TRANS_URL": "https://gateway.95516.com/gateway/api/frontTransReq.do",
+            "SDK_BACK_TRANS_URL": "https://gateway.95516.com/gateway/api/backTransReq.do",
+            "SDK_BATCH_TRANS_URL": "https://gateway.95516.com/gateway/api/batchTrans.do",
+            "SDK_SINGLE_QUERY_URL": "https://gateway.95516.com/gateway/api/queryTrans.do",
+            "SDK_FILE_QUERY_URL": "https://filedownload.95516.com/",
+            "SDK_Card_Request_Url": "https://gateway.95516.com/gateway/api/cardTransReq.do",
+            "SDK_App_Request_Url": "https://gateway.95516.com/gateway/api/appTransReq.do",
+            "SDK_FRONT_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/unionpay/unionreturn",
+            "SDK_BACK_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/unionpay/unionnotify",
+            "SDK_BACK_REFUND_NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/unionpay/unionrefundnotify",
+            "UNION_PAY_INPUT_CHARSET": "utf-8"
+        }
+    },
+    "VERIFY_STUDENT": {
+        "DAYS_GOOD_FOR": 365, 
+        "EXPIRING_SOON_WINDOW": 28
+    }, 
+    "WECHAT_APP_PAY_INFO": {
+        "basic_info": {
+            "APPID": "wx89dc4dc519a2f935",
+            "APPSECRET": "fa9e442eccb5b78287b9f36a20d376ea",
+            "MCHID": "1404786402",
+            "KEY": "wx890dUIWNKMK3o398923ndaADM72Mae",
+            "ACCESS_TOKEN": "elitemc130530"
+        },
+        "other_info": {
+            "BUY_COURSES_SUCCESS_TEMPLATE_ID": "Hep0RcMm6UAHzTyKhGqmb8Yc0SMkGWp2OO8o3C27KX4",
+            "BUY_COURSES_SUCCESS_HREF_URL": "http://demo.e-ducation.cn",
+            "COIN_SUCCESS_TEMPLATE_ID": "irFsJMs3FZBOmuWkT-EIRCM8X55ae7H2bZM0AYhRR-Q",
+            "COIN_SUCCESS_HREF_URL": "http://demo.e-ducation.cn",
+            "SERVICE_TEL": "020-38773780",
+            "NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/wxpay/appnotify",
+            "JS_API_CALL_URL": "http://demo.e-ducation.cn/shoppinglist/wxpay/?showwxpaytitle=1",
+            "SSLCERT_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_cert.pem",
+            "SSLKEY_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_key.pem"
+        }
+    },
+    "WECHAT_ENTERPRISE_APP_PAY_INFO": {
+        "basic_info": {
+            "APPID": "wxc16f11824e2c359e",
+            "APPSECRET": "4aabdd555cbce117f3ffdb24954571e8",
+            "MCHID": "1480278222",
+            "KEY": "s1dQZ51WTB3v09qYNThd8QI3tLUrkjgq",
+            "ACCESS_TOKEN": ""
+        },
+        "other_info": {
+            "BUY_COURSES_SUCCESS_TEMPLATE_ID": "Hep0RcMm6UAHzTyKhGqmb8Yc0SMkGWp2OO8o3C27KX4",
+            "BUY_COURSES_SUCCESS_HREF_URL": "http://demo.e-ducation.cn",
+            "COIN_SUCCESS_TEMPLATE_ID": "irFsJMs3FZBOmuWkT-EIRCM8X55ae7H2bZM0AYhRR-Q",
+            "COIN_SUCCESS_HREF_URL": "http://demo.e-ducation.cn",
+            "SERVICE_TEL": "020-38773780",
+            "NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/wxpay/enterprise_appnotify",
+            "JS_API_CALL_URL": "http://demo.e-ducation.cn/shoppinglist/wxpay/?showwxpaytitle=1",
+            "SSLCERT_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_cert.pem",
+            "SSLKEY_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_key.pem"
+        }
+    },
+    "WECHAT_PAY_INFO": {
+        "basic_info":{
+            "APPID": "wx4aea41571f7d47e1",
+            "APPSECRET": "5ff2ef73c8121f475566002638388894 ",
+            "MCHID": "1402026402",
+            "KEY": "skUiw9018IIjks8UshjskQ2329Sss9P1",
+            "ACCESS_TOKEN": "elitemc130530"
+        },
+        "other_info":{
+            "BUY_COURSES_SUCCESS_TEMPLATE_ID": "Hep0RcMm6UAHzTyKhGqmb8Yc0SMkGWp2OO8o3C27KX4",
+            "BUY_COURSES_SUCCESS_HREF_URL": "http://demo.e-ducation.cn",
+            "COIN_SUCCESS_TEMPLATE_ID": "irFsJMs3FZBOmuWkT-EIRCM8X55ae7H2bZM0AYhRR-Q",
+            "COIN_SUCCESS_HREF_URL": "http://demo.e-ducation.cn",
+            "SERVICE_TEL": "020-38773780",
+            "NOTIFY_URL": "http://demo.e-ducation.cn/shoppinglist/wxpay/nativenotify",
+            "JS_API_CALL_URL": "http://demo.e-ducation.cn/shoppinglist/wxpay/?showwxpaytitle=1",
+            "SSLCERT_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_cert.pem",
+            "SSLKEY_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_key.pem"
+        }
+    },
+    "XQUEUE_INTERFACE": {
+        "basic_auth": [
+            "edx", 
+            "edx"
+        ], 
+        "django_auth": {
+            "password": "password", 
+            "username": "lms"
+        }, 
+        "url": "http://localhost:18040"
+    }, 
+    "YOUTUBE_API_KEY": "PUT_YOUR_API_KEY_HERE", 
+    "ZENDESK_API_KEY": "", 
+    "ZENDESK_USER": ""
+}
